@@ -1,0 +1,28 @@
+
+
+#Posicionar
+cd
+
+#Actualizar
+apt update
+apt full-upgrade -y
+apt autoremove -y
+apt clean
+
+#Instalar herramientas
+pkg install wget -y
+pkg install git -y
+pkg install cmatrix -y
+pkg install openssh -y
+pkg install htop -y
+pkg install termux-api -y
+pkg install man
+
+#Aviso de finalizacion del script
+termux-vibrate
+termux-vibrate
+termux-vibrate
+termux-vibrate
+termux-vibrate
+termux-vibrate
+echo 'Todo listo...'
