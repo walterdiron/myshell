@@ -1,4 +1,3 @@
-# termuxwall
 Backap de la configuracion de mi termux
 
 Es mi primer script que me va a servir 
