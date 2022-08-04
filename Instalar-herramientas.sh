@@ -20,6 +20,7 @@ pkg install htop -y
 pkg install termux-api -y
 pkg install man -y
 pkg install figlet -y
+pkg install zip -y
 echo 'Paquete de herramientas instaladas'
 
 #Aviso de finalizacion del script
