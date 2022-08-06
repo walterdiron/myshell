@@ -22,3 +22,7 @@ if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-found ]; then
 		/data/data/com.termux/files/usr/libexec/termux/command-not-found "$1"
 	}
 fi
+#Mis alias personalizados:
+alias a='apt update && apt full-upgrade -y && apt autoremo -y apt clean && echo ". . . T O D O   L I S T O . . ."'
+alias ls='exa -l'
+alias lsa='exa -la'
