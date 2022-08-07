@@ -1,10 +1,13 @@
 clear
 cd
+
+#Crear carpeta
 mkdir backap-termux
-#Bash.bashrc
+
+#Copiar Bash.bashrc
 cp /data/data/com.termux/files/usr/etc/bash.bashrc $HOME/backap-termux
 
-# .shortcuts 
+#Copiar .shortcuts 
 cp .shortcuts backap-termux/
 
 #Compresion
