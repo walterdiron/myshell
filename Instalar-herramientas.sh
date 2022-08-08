@@ -14,7 +14,7 @@ pkg install man -y
 pkg install figlet -y
 pkg install zip -y
 pkg install exa -y
-termux-setup-storage -y
+
 echo '. . . Paquete de herramientas instaladas . . .'
 
 #Aviso de finalizacion del script
@@ -55,3 +55,4 @@ termux-vibrate
 termux-vibrate
 termux-vibrate
 echo '          . . . T O D O  L I S T O . . .'
+termux-setup-storage
