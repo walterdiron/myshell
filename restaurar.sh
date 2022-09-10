@@ -4,6 +4,7 @@ cd
 #Restaurar Bashrc
 rm /data/data/com.termux/files/usr/etc/bash.bashrc
 cp termuxwall/bash.bashrc /data/data/com.termux/files/usr/etc/bash.bashrc
+
 source /data/data/com.termux/files/usr/etc/bash.bashrc
 
 
