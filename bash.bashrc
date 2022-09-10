@@ -19,6 +19,7 @@ alias a='apt update && apt full-upgrade -y && apt autoremove -y apt clean && ech
 alias ll='exa -l'
 alias lsa='exa -la'
 alias arepo='bash termuxwall/repositoriotermuxwall.sh'
+alias m='cmatrix'
 
 #Correcion ortografica:
 shopt -s cdspell
