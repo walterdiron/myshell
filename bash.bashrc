@@ -16,8 +16,9 @@ fi
 #Mis alias personalizados:
 alias aliass='nano /data/data/com.termux/files/usr/etc/bash.bashrc'
 alias a='apt update && apt full-upgrade -y && apt autoremove -y apt clean && echo "	. . . T O D O   L I S T O . . ."'
-alias ls='exa -l'
+alias ll='exa -l'
 alias lsa='exa -la'
+alias arepo='bash termuxwall/repositoriotermuxwall.sh'
 
 #Correcion ortografica:
 shopt -s cdspell
