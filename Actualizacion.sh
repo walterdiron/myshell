@@ -1,6 +1,6 @@
-#Actualizar
-pkg update
+#Actualizar sistema
+pkg update -y
 pkg full-upgrade -y
 pkg autoremove -y
-pkg clean
-echo 'A C T U A L I Z A C I O N   C O M P L E T A'
+pkg clean -y
+echo '. : S I S T E M A   A C T U A L I Z A D O : .'

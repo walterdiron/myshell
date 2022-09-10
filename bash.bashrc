@@ -1,22 +1,13 @@
-# Command history tweaks:
-# - Append history instead of overwriting
-#   when shell exits.
-# - When using history substitution, do not
-#   exec command immediately.
-# - Do not save to history commands starting
-#   with space.
-# - Do not save duplicated commands.
+#Configuracion de historial.
 shopt -s histappend
 shopt -s histverify
 export HISTCONTROL=ignoreboth
 
-# Default command line prompt.
+# Prompt: Nombre de linea de comandos.
 PROMPT_DIRTRIM=2
 PS1='\[\e[0;32m\]\w\[\e[0m\] \[\e[0;97m\]\$\[\e[0m\] '
 
-# Handles nonexistent commands.
-# If user has entered command which invokes non-available
-# utility, command-not-found will give a package suggestions.
+# Sugerencia de comando, cuando se escribe mal.
 if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-found ]; then
 	command_not_found_handle() {
 		/data/data/com.termux/files/usr/libexec/termux/command-not-found "$1"
@@ -24,6 +15,9 @@ if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-found ]; then
 fi
 #Mis alias personalizados:
 alias aliass='nano /data/data/com.termux/files/usr/etc/bash.bashrc'
-alias a='apt update && apt full-upgrade -y && apt autoremo -y apt clean && echo "	. . . T O D O   L I S T O . . ."'
+alias a='apt update && apt full-upgrade -y && apt autoremove -y apt clean && echo "	. . . T O D O   L I S T O . . ."'
 alias ls='exa -l'
 alias lsa='exa -la'
+
+#Correcion ortografica:
+shopt -s cdspell
