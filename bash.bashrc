@@ -15,7 +15,7 @@ if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-found ]; then
 fi
 #Mis alias personalizados:
 alias aliass='nano /data/data/com.termux/files/usr/etc/bash.bashrc'
-alias a='apt update && apt full-upgrade -y && apt autoremove -y && apt clean && echo "	. . . T O D O   L I S T O . . ."'
+alias a='apt update && apt full-upgrade -y && apt autoremove -y && apt clean && echo ". : S I S T E M A   A C T U A L I Z A D O : ."'
 alias ll='exa -l'
 alias lsa='exa -la'
 alias arepo='bash /data/data/com.termux/files/home/termuxwall/repositoriotermuxwall.sh'
