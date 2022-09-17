@@ -20,6 +20,7 @@ alias ll='exa -l'
 alias lsa='exa -la'
 alias arepo='bash /data/data/com.termux/files/home/termuxwall/repositoriotermuxwall.sh'
 alias m='cmatrix'
+alias ab='source /data/data/com.termux/files/usr/etc/bash.bashrc'
 
 #Correcion ortografica:
 shopt -s cdspell
