@@ -15,6 +15,6 @@ pkg install man -y
 pkg install figlet -y
 pkg install zip -y
 pkg install exa -y
-termux-setup-storage -y
+termux-setup-storage
 
 echo '. . . Paquete de herramientas instaladas . . .'
