@@ -23,6 +23,7 @@ alias amyshell='bash /data/data/com.termux/files/home/.baulera/myshell/repomyshe
 alias m='cmatrix'
 alias ab='source /data/data/com.termux/files/usr/etc/bash.bashrc'
 alias borrar='rm -r'
+alias permiso='chmod -x' 
 
 #Correcion ortografica:
 shopt -s cdspell
