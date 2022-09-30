@@ -9,6 +9,7 @@ pkg install curl -y
 pkg install file -y
 pkg install cmatrix -y
 pkg install hollywood -y
+apt install libcaca -y
 pkg install htop -y
 pkg install termux-api
 pkg install man -y
