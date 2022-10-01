@@ -17,4 +17,4 @@ zip b-termux.zip backap-termux
 #Borrado
 rm -r backap-termux
 
-echo '.:Backap terminado:.'
+figlet Backap terminado

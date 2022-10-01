@@ -20,4 +20,4 @@ pkg install zip -y
 pkg install exa -y
 termux-setup-storage
 
-echo '. . . Paquete de herramientas instaladas . . .'
+figlet Herramientas Instaladas

@@ -7,6 +7,5 @@ apt install procps -y
 
 sshd
 passwd
-ifconfig
-echo 'Servidor instalado'
 echo 'EJEMPLO -> ssh IP_SERVIDOR -p 8022'
+figlet Servidor instalado
