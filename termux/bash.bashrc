@@ -25,7 +25,10 @@ alias ab='source /data/data/com.termux/files/usr/etc/bash.bashrc'
 alias borrar='rm -r'
 alias permiso='chmod -x' 
 alias fuego='cacafire'
-alias baulera='cd $HOME/.baulera' 
+alias baulera='cd $HOME/.baulera'
+alias myshell='cd /data/data/com.termux/files/home/.baulera/myshell' 
+alias termuxshell='/data/data/com.termux/files/home/.baulera/myshell/termux'
+
 
 #Correcion ortografica:
 shopt -s cdspell
