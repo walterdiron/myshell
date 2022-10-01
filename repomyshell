@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #Actualizando repositorio TERMUXWALL.
 cd
 rm -r -f -d .baulera/myshell

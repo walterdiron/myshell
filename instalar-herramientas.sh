@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #Posicionar
 cd
 clear

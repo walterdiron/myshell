@@ -1,3 +1,5 @@
+#!/bin/bash
+
 cd
 apt install openssh -y
 apt install net-tools -y
