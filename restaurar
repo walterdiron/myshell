@@ -10,4 +10,4 @@ cp .baulera/myshell/bash.bashrc /data/data/com.termux/files/usr/etc/bash.bashrc
 source /data/data/com.termux/files/usr/etc/bash.bashrc
 
 
-Figlet . . . T o d o   L i s t o . . .
+Figlet Todo Listo
