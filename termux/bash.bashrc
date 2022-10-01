@@ -16,16 +16,16 @@ fi
 
 #Mis alias personalizados:
 alias aliass='nano /data/data/com.termux/files/usr/etc/bash.bashrc'
-alias a='apt update && apt full-upgrade -y && apt autoremove -y && apt clean && echo ". : S I S T E M A   A C T U A L I Z A D O : ."'
+alias a='apt update && apt full-upgrade -y && apt autoremove -y && apt clean'
 alias ll='exa -l'
 alias la='exa -la'
-alias amyshell='bash /data/data/com.termux/files/home/.baulera/myshell/repomyshell'
+alias amyshell='bash /data/data/com.termux/files/home/.baulera/myshell/termux/repomyshell'
 alias m='cmatrix'
 alias ab='source /data/data/com.termux/files/usr/etc/bash.bashrc'
 alias borrar='rm -r'
 alias permiso='chmod -x' 
 alias fuego='cacafire'
-alias baulera='cd $HOME .baulera' 
+alias baulera='cd $HOME/.baulera' 
 
 #Correcion ortografica:
 shopt -s cdspell
