@@ -24,7 +24,8 @@ alias m='cmatrix'
 alias ab='source /data/data/com.termux/files/usr/etc/bash.bashrc'
 alias borrar='rm -r'
 alias permiso='chmod -x' 
-alias fuego='cacafire' 
+alias fuego='cacafire'
+alias baulera='cd $HOME .baulera' 
 
 #Correcion ortografica:
 shopt -s cdspell
