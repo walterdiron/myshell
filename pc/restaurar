@@ -1,0 +1,13 @@
+#!/bin/bash
+
+clear
+cd
+
+#Restaurar Bashrc
+rm -r -f -d /home/$USER/.bashrc
+cp /home/$USER/.baulera/myshell/pc/.bashrc /home/$USER/.bashrc
+
+source /home/$USER/.bashrc
+
+
+figlet Bashrc Restaurado
