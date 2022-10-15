@@ -1,0 +1,21 @@
+#!/bin/bash
+
+#Posicionar
+cd
+clear
+
+#Instalar herramientas
+apt install zsh -y
+apt install wget -y
+apt install curl -y
+apt install file -y
+apt install cmatrix -y
+apt install hollywood -y
+apt install libcaca -y
+apt install htop -y
+apt install man -y
+apt install figlet -y
+apt install zip -y
+apt install exa -y
+
+figlet Herramientas Instaladas
