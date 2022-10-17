@@ -13,7 +13,7 @@ git config --global user.email "$email"
 git config --global user.name "$usuario"
 
 #Clonando repositorios
-mkdir /home/$USER/.baulera
+mkdir -p /home/$USER/.baulera
 cd
 chmod 777 .baulera
 cd .baulera
