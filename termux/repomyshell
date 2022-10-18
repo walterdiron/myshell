@@ -1,0 +1,11 @@
+#!/bin/bash
+
+#Actualizando repositorio.
+cd
+rm -r -f -d /data/data/com.termux/files/home/.baulera/myshell
+cd /data/data/com.termux/files/home/.baulera/
+git clone https://github.com/walterdiron/myshell.git
+cd
+chmod 777 /data/data/com.termux/files/home/.baulera//myshell/*
+
+figlet Repositorio Actualizando

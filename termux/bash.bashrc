@@ -30,6 +30,7 @@ alias mywikii='cd $HOME/.baulera/mywiki'
 alias baulera='cd $HOME/.baulera'
 alias myshell='cd /data/data/com.termux/files/home/.baulera/myshell' 
 alias termuxshell='/data/data/com.termux/files/home/.baulera/myshell/termux'
+alias ip='echo $(ip -o -4 addr list wlan0 |awk '{print $4}' |cut -d / -f1)'
 
 
 #Correcion ortografica:
