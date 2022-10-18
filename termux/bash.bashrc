@@ -30,7 +30,7 @@ alias mywikii='cd $HOME/.baulera/mywiki'
 alias baulera='cd $HOME/.baulera'
 alias myshell='cd /data/data/com.termux/files/home/.baulera/myshell' 
 alias termuxshell='/data/data/com.termux/files/home/.baulera/myshell/termux'
-alias ip='echo $(ip -o -4 addr list wlp2s0 |awk '{print $4}' |cut -d / -f1)'
+alias ip='echo $(ifconfig |grep -A 1 "eth0" |tail -1 |cut -d ":" -f 2| cut -d " " -f 1)'
 
 
 #Correcion ortografica:
