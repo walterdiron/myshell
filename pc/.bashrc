@@ -52,7 +52,7 @@ alias mywikii='cd /home/$USER/.baulera/mywiki'
 alias baulera='cd /home/$USER/.baulera'
 alias myshell='cd /home/$USER/.baulera/myshell' 
 alias pc='cd /home/$USER/.baulera/myshell/pc'
-alias ip='echo $(ip -o -4 addr list wlp2s0 |awk '{print $4}' |cut -d / -f1)'
+alias ip="echo $(ip -o -4 addr list wlp2s0 |awk '{print $4}' |cut -d / -f1)"
 
 
 #Correcion ortografica:
