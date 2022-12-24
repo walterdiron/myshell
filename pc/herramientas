@@ -6,6 +6,7 @@ clear
 
 #Instalar herramientas
 apt install zsh -y
+apt install neofetch -y
 apt install wget -y
 apt install curl -y
 apt install file -y
