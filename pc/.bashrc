@@ -38,16 +38,14 @@ fi
 
 #Mis alias personalizados:
 alias aliass='nano /home/$USER/.bashrc'
-alias a='apt update && apt full-upgrade -y && apt autoremove -y && apt clean'
+alias a='apt update && apt full-upgrade -y && apt autoremove -y && apt clean && clear && echo "Todo Actualizado..."'
 alias ll='exa -l'
 alias la='exa -la'
 alias amyshell='bash /home/$USER/.baulera/myshell/repomyshell'
 alias m='cmatrix'
-alias h='hollywood'
 alias ab='source /home/$USER/.bashrc'
 alias borrar='rm -r'
 alias permiso='chmod 777' 
-alias fuego='cacafire'
 alias mywikii='cd /home/$USER/.baulera/mywiki'
 alias baulera='cd /home/$USER/.baulera'
 alias myshell='cd /home/$USER/.baulera/myshell' 
