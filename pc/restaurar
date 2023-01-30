@@ -4,10 +4,10 @@ clear
 cd
 
 #Restaurar Bashrc
-rm -r -f -d /home/$USER/.bashrc
-cp /home/$USER/.baulera/myshell/pc/.bashrc /home/$USER/.bashrc
+rm -r -f -d $HOME/.bashrc
+cp $HOME/.baulera/myshell/pc/.bashrc $HOME/.bashrc
 
-source /home/$USER/.bashrc
+source $HOME/.bashrc
 
 
 figlet Bashrc Restaurado
