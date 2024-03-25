@@ -1,25 +1,13 @@
-#!/data/data/com.termux/files/usr/bin/bash
+#!/bin/bash
 
-# Instalar openssh
-pkg install -y openssh
+cd
+apt install openssh -y
+apt install net-tools -y
+apt install procps -y
 
-# Definir usuario y contraseña para la clave SSH
-SSH_USER="walli"
-SSH_PASSWORD="7547"
+ssh-keygen -t rsa -f ~/.ssh/id_rsa -q -N "7547"
 
-# Generar claves SSH si no existen con la contraseña especificada
-if [ ! -f ~/.ssh/id_rsa ]; then
-    ssh-keygen -t rsa -f ~/.ssh/id_rsa -q -N "$SSH_PASSWORD"
-fi
-
-# Iniciar sshd en el puerto especificado
 sshd -p 7547
-
-# Obtener la dirección IP local de Termux
-TERMUX_IP=$(ip addr show wlan0 | grep "inet " | awk '{print $2}' | cut -d "/" -f 1)
-
-echo "Servidor SSH configurado y en ejecución."
-echo "Utiliza la siguiente dirección IP para conectarte desde otro dispositivo en la misma red local:"
-echo "$TERMUX_IP"
-
-echo 'EJEMPLO -> ssh $TERMUX_IP -p 8022'
+passwd
+echo 'EJEMPLO -> ssh IP_SERVIDOR -p 8022'
+echo "Servidor funcionando
