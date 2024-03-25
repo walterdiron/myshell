@@ -4,10 +4,18 @@ cd
 apt install openssh -y
 apt install net-tools -y
 apt install procps -y
+pkg install iproute2 -y
 
-ssh-keygen -t rsa -f ~/.ssh/id_rsa -q -N "7547"
+# Definir usuario y contraseña para la clave SSH
+SSH_USER="walli"
+IP_SERVIDOR=ip addr show wlan0 | grep -oP '(?<=inet\s)\d+(\.\d+){3}'
 
 sshd -p 7547
-#passwd
-echo 'EJEMPLO -> ssh IP_SERVIDOR -p 8022'
-echo "Servidor funcionando
+
+clear
+echo "Servidor SSH configurado y en ejecución."
+echo
+echo "Dirección IP $IP_SERVIDOR"
+
+echo 'EJEMPLO -> ssh $IP_SERVIDOR -p 8022'
+
