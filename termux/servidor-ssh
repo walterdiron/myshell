@@ -8,6 +8,6 @@ apt install procps -y
 ssh-keygen -t rsa -f ~/.ssh/id_rsa -q -N "7547"
 
 sshd -p 7547
-passwd
+#passwd
 echo 'EJEMPLO -> ssh IP_SERVIDOR -p 8022'
 echo "Servidor funcionando
