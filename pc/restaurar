@@ -4,7 +4,7 @@ clear
 cd
 
 #Restaurar Bashrc
-rm -r -f -d $HOME/.bashrc
-cp $HOME/.baulera/myshell/pc/.bashrc $HOME/.bashrc
+rm -r -f -d /home/walli/.bashrc
+cp /home/walli/.baulera/myshell/pc/.bashrc /home/walli/.bashrc
 
-source $HOME/.bashrc
+source /home/walli/.bashrc
